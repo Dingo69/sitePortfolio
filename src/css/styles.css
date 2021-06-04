@@ -1,0 +1,183 @@
+body {
+    margin: 0;
+
+    font-family: 'Raleway', sans-serif;
+    font-size: 14px;
+    color: #6c7279;
+}
+
+*,
+*:before,
+*:after {
+    box-sizing: border-box;
+}
+
+
+/* Container
+=====================*/
+
+.container {
+    width: 100%;
+    min-height: calc(100vh - 125px- 100px);
+    margin: 0 auto;
+    min-height:100%;
+}
+
+footer{
+    /* position: absolute;
+    bottom: 0; */
+
+    width: 100%;
+    height: 100px;
+    background-color: greenyellow;
+}
+
+
+/* Header
+=====================*/
+
+.header {
+     width: 100%;
+   /* position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 1000; */
+}
+
+.header__inner {
+    display: flex;
+    justify-content: space-between;
+    padding: 35px 0;
+    
+
+    border-bottom: 1px solid greenyellow;
+}
+.Alibaba{
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+}
+/* Main
+=====================*/
+
+.main{
+    height: 743px;
+    overflow-y: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: #ffffff;
+}
+
+/* .main__inner{
+    
+} */
+
+.portfolio__wraper{
+    display: flex;
+}
+
+.main__fotka{
+    margin: 40px;
+    height: auto;
+    width: 333px;
+    border-radius: 10px;
+    border-image:teal;
+}
+.portfolio__info{
+    padding: 10px;
+    color: #000;
+}
+
+.portfolio__profession{
+    border-bottom: 9px solid rgb(47, 224, 255);
+    padding-bottom: 20px;
+    margin: 0;
+}
+
+
+.main__title{
+    font-family: 'Open Sans', 'sans-serif';
+    font-size: 20px;
+    color: black;
+    font-weight: 600;
+
+}
+
+.main__skills__item{
+    display: flex;
+    flex-direction:column;
+}
+
+.skills__image {
+    margin: 10px;
+    height: 100px;
+    width: 100px;
+}
+
+.main__skills{
+    padding: 10px 50px;
+    font-family: 'Open Sans', 'sans-serif';
+    font-size: 17px;
+    display: flex;
+    justify-content: space-between;
+}
+.profile__details{
+    display: block;
+    background-color: greenyellow;
+    text-align: center;
+    border-radius: 15px;
+    margin-top: 25px;
+    padding: 5px;
+    color:darkgreen;
+    cursor: pointer;
+    font-weight: bolder;
+    text-decoration:none;
+    transition: all 0.4s;
+}
+
+.profile__details:hover{
+    color: whitesmoke;
+    background-color:teal;
+
+}
+
+
+.nav{
+    display: flex;
+    justify-content: center;
+    padding-top: 15px;
+}
+
+.nav__link{
+    padding-right: 25px;
+}
+.soc__image{
+    width: 30px;
+    height: 30px;
+    border-radius:30%;
+}
+
+
+.copiright__block{
+    display: flex;
+    justify-content: flex-end;
+    width: 100%;
+}
+.copiright__info{
+    display: flex;
+    flex-direction: column;
+    margin: 0 10px;
+}
+
+
+
+h1 {
+    color: rgba(8, 248, 8, 0.938);
+    font-size: 16px;
+    transition: all 0.5s;
+    margin: 0;
+}
+h1:hover {
+    color: blue;
+}
